@@ -1,0 +1,14 @@
+{
+  "name": "oldversion",
+  "version": "1.0.0",
+  "description": "demonstrating intended behaviour with last working version of mocha",
+  "main": "timeout-test.spec.js",
+  "scripts": {
+    "test": "npx mocha --timeout 0 --ui bdd timeout-test.spec.js"
+  },
+  "author": "Bryce Carr",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "7"
+  }
+}

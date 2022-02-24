@@ -1,0 +1,14 @@
+{
+  "name": "newversion",
+  "version": "1.0.0",
+  "description": "demonstrating the bug with the latest version of mocha",
+  "main": "timeout-test.spec.js",
+  "scripts": {
+    "test": "npx mocha --timeout 0 --ui bdd timeout-test.spec.js"
+  },
+  "author": "Bryce Carr",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "9.2.1"
+  }
+}
