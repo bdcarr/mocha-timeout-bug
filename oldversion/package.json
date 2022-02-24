@@ -9,6 +9,6 @@
   "author": "Bryce Carr",
   "license": "ISC",
   "dependencies": {
-    "mocha": "7"
+    "mocha": "7.2.1"
   }
 }
